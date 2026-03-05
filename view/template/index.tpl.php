@@ -217,7 +217,7 @@ require_once VIEW . 'common/navbar.tpl.php';
                                 </div>
                                 <div class="contact-text">
                                     <h5 class="mb-1">Nossa localização</h5>
-                                    <p><a href="https://goo.gl/maps/pWfLLvyNPzqkuoaY6" target="_blank">Rua Alberto de Freitas, 166 - Vila Maria Alta <br> São Paulo - SP, 02126-010</a></p>
+                                    <p><a href="https://maps.app.goo.gl/5vcRSSwMyg9rbRtk7" target="_blank">R. Francisco Leopoldo e Silva, 68 - Jardim Andaraí <br> São Paulo - SP, 02166-030</a></p>
                                 </div>
                             </li>
                             <li class="d-flex pb-2">
@@ -240,7 +240,7 @@ require_once VIEW . 'common/navbar.tpl.php';
                             </li>
                         </ul>
                         <hr class="mt-2 mb-3">
-                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3658.7420576848967!2d-46.59575758442469!3d-23.505798565429227!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce58b2ac131603%3A0x7d4b4576a82b95e!2sRua%20Alberto%20de%20Freitas%2C%20166%20-%20Vila%20Maria%20Alta%2C%20S%C3%A3o%20Paulo%20-%20SP%2C%2002126-010!5e0!3m2!1spt-BR!2sbr!4v1680799119953!5m2!1spt-BR!2sbr" width="100%" height="175" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3658.2045857364024!2d-46.58492100000001!3d-23.525143!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce5f2f3ff051ad%3A0x5a0549137b8ba5c0!2sR.%20Francisco%20Leopoldo%20e%20Silva%2C%2068%20-%20Vila%20Maria%2C%20S%C3%A3o%20Paulo%20-%20SP%2C%2002166-030!5e0!3m2!1spt-BR!2sbr!4v1772734790499!5m2!1spt-BR!2sbr" width="100%" height="175" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                     </div>
                 </div>
             </div>

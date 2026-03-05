@@ -19,9 +19,9 @@ define('MAIL_HOST', 'mail.abastancacargas.com.br');
 define('MAIL_USERNAME', 'site@abastancacargas.com.br');
 define('MAIL_PASSWORD', 'D,5MTmPIkWzh');
 
-define('PHONE', '(11) 3384-6425');
+define('PHONE', '(11) 91367-6006');
 define('LINK_PHONE', 'tel:'. str_replace(['(', ')', ' ', '-'], '', PHONE));
-define('WHATSAPP', '(11) 98794-4672');
+define('WHATSAPP', '(11) 91367-6006');
 define('LINK_WHATSAPP', 'https://api.whatsapp.com/send?phone=55'. str_replace(['(', ')', ' ', '-'], '', WHATSAPP) .'&text=Olá '. SITE_NAME .', desejo uma cotação de frete!');
 
 define('EMAIL', 'comercial@abastancacargas.com.br');
