@@ -16958,8 +16958,8 @@ input[type="button"].btn-block {
   padding: 0.75rem 1rem;
   font-size: 1.5rem;
   line-height: 1;
-  background-color: #e3af1b;
-  border: 1px solid #e3af1b;
+  background-color: #201e1f;
+  border: 1px solid #201e1f;
   border-radius: 0.25rem;
 }
 
@@ -20530,7 +20530,7 @@ a.close.disabled {
 
   /* line 236, src/assets/scss/components/_components.header.scss */
   .white-bg.navbar .navbar-toggler span {
-    color: #276d6b;
+    color: #fff;
   }
 }
 
@@ -24081,7 +24081,7 @@ footer a {
   -ms-flex: 1 1 50%;
   flex: 1 1 50%;
   max-width: 50%;
-  padding-right: 15px;
+  /* padding-right: 15px; */
 }
 
 /* line 42, src/assets/scss/components/about-section/_common.scss */
@@ -31757,6 +31757,12 @@ a.text-dark:focus {
   box-shadow: 1px 1px 2px #888;
   z-index: 1000;
   animation: pisca 1.5s infinite;
+}
+
+.linkWhatsApp.mobile {
+    bottom: 70px;
+    left: 42.5%;
+    width: 15%;
 }
 
 @keyframes pisca {

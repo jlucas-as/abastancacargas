@@ -4,14 +4,14 @@ require_once VIEW . 'common/navbar.tpl.php';
 ?>
 
 <div class="main">
-    <section class="pt-100 pb-50 hero-bg-shape <?= isMobile() ? 'mt-5' : '' ?>" id="pagina-inicial">
+    <section id="pagina-inicial" class="pt-100 pb-50 hero-bg-shape <?= isMobile() ? 'mt-5' : '' ?>">
         <style>
             .hero-bg-shape:before { background-image: url('<?= img('hero-bg.png') ?>'); }
         </style>
         <div class="container">
             <div class="row align-items-center justify-content-lg-between justify-content-md-center justify-content-sm-center">
                 <div class="col-md-12 col-lg-6">
-                    <div class="hero-slider-content text-white py-5">
+                    <div class="hero-slider-content text-white pb-5" <?php if (isMobile()) echo 'style="margin-top:-20px;"'; ?>>
                         <h1 class="text-white">Eficiência e Qualidade</h1>
                         <p class="lead">Transporte com quem entende do assunto: frete fracionado, exclusivo, armazenagem e mudanças.</p>
                         <div class="action-btns mt-3">
@@ -115,26 +115,6 @@ require_once VIEW . 'common/navbar.tpl.php';
         </div>
     </section>
 
-    <section id="avaliacoes" class="d-none">
-        <div class="container">
-            <div class="row justify-content-center mb-5">
-                <div class="col-md-9 col-lg-8">
-                    <div class="section-heading text-center">
-                        <h2>Avaliações</h2>
-                        <p>Veja o que nossos clientes andam falando da gente</p>
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-md-12 pb-5">                    
-                    <?php require_once VIEW . 'components/testemonials.tpl.php'; ?>
-                    
-                    <p class="text-center mt-3"><a href="http://search.google.com/local/writereview?placeid=ChIJI3ULHg9ZzpQRpvy702SUdDM" target="_blank" class="btn btn-brand-03 mr-3"><span class="fab fa-google"></span> Avaliar no Google</a></p>
-                </div>
-            </div>
-        </div>
-    </section>
-
     <section id="numeros" class="pt-5">
         <div class="container">
             <div class="row justify-content-center mb-5">
@@ -183,7 +163,7 @@ require_once VIEW . 'common/navbar.tpl.php';
         </div>
     </section>
 
-    <section id="contato" class="contact-us-section pt-5 pb-5 mb-5">
+    <section id="contato" class="contact-us-section pt-5 <?= isMobile() ? 'mb-2' : 'pb-5 mb-5' ?>">
         <div class="container">            
             <div class="row justify-content-around">
                 <div class="col-md-9 col-lg-8">

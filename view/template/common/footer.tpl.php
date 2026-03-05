@@ -18,91 +18,13 @@
             </div>
         </footer>
 
+        <a class="linkWhatsApp <?php if (isMobile()) echo 'mobile'; ?>" href="<?= LINK_WHATSAPP ?>" target="_blank"><i class="fab fa-whatsapp"></i></a>
         <div class="scroll-top scroll-to-target text-white" data-target="html">
             <span class="fas fa-hand-point-up"></span>
         </div>
 
-        <!-- <a href="<?= LINK_WHATSAPP ?>" target="_blank" style="position:fixed;z-index:1000;bottom:56px;left:-150px;"> -->
-            <!-- <a href="javascript:chamaZap()" style="position:fixed;z-index:1000;bottom:110px;left:-150px;"> -->
-            <!-- <img src="<?= asset('imgs/cotacao-rapida-whatsapp.png') ?>" class="btn-whatsapp" title="Cotação rápida via WhatsApp" alt="Cotação rápida via WhatsApp"> -->
-        <!-- </a> -->
-
-        <a class="linkWhatsApp" href="<?= LINK_WHATSAPP ?>" target="_blank"><i class="fab fa-whatsapp"></i></a>
-
-        <div class="modal fade" id="staticBackdrop" data-backdrop="static" data-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
-            <div class="modal-dialog modal-dialog-centered">
-                <div class="modal-content">
-                    <div class="modal-header">
-                        <h5 class="modal-title" id="staticBackdropLabel">Cotação no WhatsApp</h5>
-                        <button type="button" class="close" onclick="fechamodal()" data-dismiss="modal" aria-label="Close">
-                            <span aria-hidden="true">&times;</span>
-                        </button>
-                    </div>
-                    <div class="modal-body">
-                        <p class="mb-4">Para que possamos lhe atender melhor e agilizar o atendimento, pedimos que nos informe os campos abaixo antes de abrir o WhatsApp</p>
-                        <form id="quotation-zap-form">
-                            <div class="row">
-                                <div class="col-6 col-md-6">
-                                    <div class="form-group">
-                                        <input type="text" class="form-control" name="origin" id="origin" placeholder="Origem" required="required">
-                                    </div>
-                                </div>
-                                <div class="col-6 col-md-6">
-                                    <div class="form-group">
-                                        <input type="text" class="form-control" name="destination" id="destination" placeholder="Destino" required="required">
-                                    </div>
-                                </div>
-
-                                <div class="col-12 col-md-4">
-                                    <div class="form-group">
-                                        <input type="text" class="form-control" name="note_cost" id="note_cost" placeholder="Valor de nota">
-                                    </div>
-                                </div>
-                                <div class="col-6 col-md-4">
-                                    <div class="form-group">
-                                        <input type="text" class="form-control" name="quantity" id="quantity" placeholder="Quantidade">
-                                    </div>
-                                </div>
-                                <div class="col-6 col-md-4">
-                                    <div class="form-group">
-                                        <input type="text" class="form-control" name="weight" id="weight" placeholder="Peso">
-                                    </div>
-                                </div>
-
-                                <div class="col-6 col-md-7">
-                                    <div class="form-group">
-                                        <input type="text" class="form-control" name="name" id="name" placeholder="Seu nome" required="required">
-                                    </div>
-                                </div>
-                                <div class="col-6 col-md-5">
-                                    <div class="form-group">
-                                        <input type="tel" class="form-control" name="whatsapp" id="whatsapp" placeholder="Seu WhatsApp" required="required">
-                                    </div>
-                                </div>
-                            </div>
-                        </form>
-                    </div>
-                    <div class="modal-footer">
-                        <button type="button" class="btn btn-secondary" onclick="fechamodal()">Cancelar</button>
-                        <button type="submit" id="btn-quotation-zap-form" form="quotation-zap-form" class="btn btn-primary">Abrir WhatsApp</button>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <div class="modal fade" id="alertaDeGolpe" data-keyboard="false" tabindex="-1" aria-labelledby="alertaDeGolpeLabel" style="display: none;" aria-hidden="true">
-            <div class="modal-dialog modal-dialog-centered" style="max-width: 620px;">
-                <div class="modal-content">
-                    <div class="modal-body p-0">
-                        <img class="w-100" src="<?= asset('imgs/golpe.png') ?>" alt="Estamos sendo vitimas de golpe" title="Estamos sendo vitimas de golpe">
-                    </div>
-                </div>
-            </div>
-        </div>
-
         <script src="<?= asset('js/vendors/jquery-3.5.1.min.js') ?>"></script>
         <script src="<?= asset('js/vendors/popper.min.js') ?>"></script>
-        <!-- <script src="<?= asset('js/vendors/bootstrap.min.js') ?>"></script> -->
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
         <script src="<?= asset('js/vendors/jquery.easing.min.js') ?>"></script>
         <script src="<?= asset('js/vendors/owl.carousel.min.js') ?>"></script>
