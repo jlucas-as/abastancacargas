@@ -19,7 +19,7 @@ if (isset($_GET['segment2']) AND $_GET['segment2'] == 'enviar') {
     $mail->FromName   = $_POST['name'];
 
     $mail->Subject    = $_POST['func'] == '0' ? 'Contato do site' : 'Cotação do site';
-    $mail->Subject   .= ' (royalexpresslog.com.br)';
+    $mail->Subject   .= ' (abastancacargas.com.br)';
     $mail->Body       = $_POST['func'] == '0' ? bodyContact($_POST) : bodyQuotation($_POST);
     
     $mail->AddAddress(EMAIL);
