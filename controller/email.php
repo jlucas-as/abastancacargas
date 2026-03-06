@@ -65,47 +65,24 @@ function bodyQuotation($post) {
     if (isset($post['phone']) AND $post['phone'] != '') $body .= '<a href="tel:55'. str_replace(['(', ')', '-', ' ', '.'], '', $post['phone']) .'">'. $post['phone'] .'</a>';
 
     $body .= '</p>';
-
-
-
     $body .= '</td></tr></table></td></tr></table>';
 
-
-
-    $argv = (isset($post['argv'])) ? '<br><span class="apple-link">Cotação via Google Ads</span>' : '';
+    // $argv = (isset($post['argv'])) ? '<br><span class="apple-link">Cotação via Google Ads</span>' : '';
 
     $body .= '
-
     <div class="footer">
-
         <table border="0" cellpadding="0" cellspacing="0">
-
             <tr>
-
                 <td class="content-block">
-
                     <span class="apple-link">'. date('Y') .' © '. SITE_NAME .'</span><br>
-
                     <span class="apple-link">'. $_SERVER['SERVER_NAME'] .'</span>
-
-                    '. $argv .'
-
                 </td>
-
             </tr>
-
         </table>
-
     </div>
-
     ';
-
-
 
     $body .= '</div></td><td>&nbsp;</td></tr></table></body></html>';
 
-
-
     return $body;
-
 }
