@@ -234,8 +234,11 @@ require_once VIEW . 'common/navbar.tpl.php';
                                     <span class="fab fa-whatsapp rounded-circle p-3"></span>
                                 </div>
                                 <div class="contact-text">
-                                    <h5 class="mb-1">Telefone e WhatsApp</h5>
-                                    <p><a target="_blank" href="<?= LINK_PHONE ?>"><?= PHONE ?></a> | <a target="_blank" href="<?= LINK_WHATSAPP ?>"><i class="fab fa-whatsapp"></i> <?= WHATSAPP ?></a></p>
+                                    <h5 class="mb-1">Telefones</h5>
+                                    <p>
+                                        <a target="_blank" href="<?= LINK_WHATSAPP ?>"><i class="fab fa-whatsapp"></i> <?= WHATSAPP ?></a> |
+                                        <a target="_blank" href="<?= LINK_WHATSAPP2 ?>"><i class="fab fa-whatsapp"></i> <?= WHATSAPP2 ?></a>
+                                    </p>
                                 </div>
                             </li>
                         </ul>
