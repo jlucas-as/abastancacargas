@@ -92,7 +92,7 @@ require_once VIEW . 'common/navbar.tpl.php';
                         <img class="w-100" src="<?= img('transporte-fracionado.png') ?>" />
                         <h5 class="mb-2 mt-2">Transporte fracionado</h5>
                         <p class="mb-2">Envie pequenas cargas pagando menos. Compartilhe espaço no caminhão e conte com uma logística rápida, segura e econômica para sua empresa.</p>
-                        <a href="<?= LINK_WHATSAPP ?>" class="btn btn-brand-03 p-2"><span class="fab fa-whatsapp"></span> Saiba mais</a>
+                        <a href="<?= LINK_WHATSAPP ?> sobre transporte fracionado" class="btn btn-brand-03 p-2"><span class="fab fa-whatsapp"></span> Saiba mais</a>
                     </div>
                 </div>
                 <div class="col-sm-6 col-md-6 col-lg-4 col-6">
@@ -100,7 +100,7 @@ require_once VIEW . 'common/navbar.tpl.php';
                         <img class="w-100" src="<?= img('transporte-exclusivo.png') ?>" />
                         <h5 class="mb-2 mt-2">Transporte exclusivo</h5>
                         <p class="mb-2">Sua carga viaja sozinha, com mais rapidez e segurança. O caminhão é dedicado à sua entrega, garantindo prazos mais curtos e controle total.</p>
-                        <a href="<?= LINK_WHATSAPP ?>" class="btn btn-brand-03 p-2"><span class="fab fa-whatsapp"></span> Saiba mais</a>
+                        <a href="<?= LINK_WHATSAPP ?> sobre transporte exclusivo" class="btn btn-brand-03 p-2"><span class="fab fa-whatsapp"></span> Saiba mais</a>
                     </div>
                 </div>
                 <div class="col-sm-6 col-md-6 col-lg-4 col-6">
@@ -108,7 +108,23 @@ require_once VIEW . 'common/navbar.tpl.php';
                         <img class="w-100" src="<?= img('transporte-de-mudancas.png') ?>" />
                         <h5 class="mb-2 mt-2">Transporte de mudanças</h5>
                         <p class="mb-2">Mudança residencial ou comercial com cuidado e segurança. Transportamos seus móveis e pertences com equipe preparada e total proteção.</p>
-                        <a href="<?= LINK_WHATSAPP ?>" class="btn btn-brand-03 p-2"><span class="fab fa-whatsapp"></span> Saiba mais</a>
+                        <a href="<?= LINK_WHATSAPP ?> sobre transporte de mudanças" class="btn btn-brand-03 p-2"><span class="fab fa-whatsapp"></span> Saiba mais</a>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-6 col-lg-4 col-6">
+                    <div class="bg-white p-2 rounded text-center shadow mt-lg-0 mb-4">
+                        <img class="w-100" src="<?= img('armazenagem-de-cargas.jpg') ?>" />
+                        <h5 class="mb-2 mt-2">Armazenamento de cargas</h5>
+                        <p class="mb-2">O serviço de armazenamento de cargas é a etapa inicial do transporte da sua carga. Armazenamos o sua carga para garantir que o mesma seja entrega nas melhores condições.</p>
+                        <a href="<?= LINK_WHATSAPP ?> sobre armazenamento de cargas" class="btn btn-brand-03 p-2"><span class="fab fa-whatsapp"></span> Saiba mais</a>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-6 col-lg-4 col-6">
+                    <div class="bg-white p-2 rounded text-center shadow mt-lg-0 mb-4">
+                        <img class="w-100" src="<?= img('rastreamento-de-cargas.jpg') ?>" />
+                        <h5 class="mb-2 mt-2">Rastramento</h5>
+                        <p class="mb-2">Acompanhe sua carga em tempo real com total visibilidade e controle durante todo o transporte. Garantimos mais segurança, previsibilidade e confiabilidade em cada etapa da entrega..</p>
+                        <a href="<?= LINK_WHATSAPP ?> sobre rastreamento de cargas" class="btn btn-brand-03 p-2"><span class="fab fa-whatsapp"></span> Saiba mais</a>
                     </div>
                 </div>
             </div>
