@@ -12,7 +12,7 @@ require_once VIEW . 'common/navbar.tpl.php';
             <div class="row align-items-center justify-content-lg-between justify-content-md-center justify-content-sm-center">
                 <div class="col-md-12 col-lg-6">
                     <div class="hero-slider-content text-white pb-5" <?php if (isMobile()) echo 'style="margin-top:-20px;"'; ?>>
-                        <h1 class="text-white">Eficiência e Qualidade</h1>
+                        <h1 class="text-white">Comprometimento e Pontualidade</h1>
                         <p class="lead">Transporte com quem entende do assunto: frete fracionado, exclusivo, armazenagem e mudanças.</p>
                         <div class="action-btns mt-3">
                             <a href="<?= LINK_WHATSAPP ?>" class="btn btn-brand-03 btn-rounded mr-3">Chame no WhatsApp <i class="fab fa-whatsapp pl-2"></i></a>
