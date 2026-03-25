@@ -45,7 +45,7 @@ require_once VIEW . 'common/navbar.tpl.php';
                 <div class="col-md-12 col-lg-6">
                     <div class="feature-contents section-heading">
                         <h2>Conheça um pouco mais da <?= SITE_NAME ?></h2>
-                        <p>Acreditamos que a honestidade, ética e competência garantem a excelência do nosso trabalho e principalmente a satisfação dos nossos clientes.</p>
+                        <p>Na Abastança Cargas, nos destacamos no mercado pela excelência em soluções logísticas e pelo comprometimento do nosso time altamente capacitado. Nosso diferencial está na combinação de alta performance operacional e atenção aos detalhes, garantindo serviços de qualidade superior e a redução de problemas em suas operações. Conte conosco para transformar suas necessidades logísticas em experiências positivas e eficientes. Confie no nosso compromisso de entregar não apenas cargas, mas também resultados que impulsionam o sucesso do seu negócio.</p>
 
                         <ul class="check-list-wrap list-two-col py-3">
                             <li>Suporte 24h</li>

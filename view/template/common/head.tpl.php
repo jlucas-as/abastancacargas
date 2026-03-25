@@ -15,7 +15,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <meta name="description" content="<?= $description ?>" />
     <link rel="icon" href="<?= img('favicon.png') ?>" type="image/png" sizes="16x16">
-    <title><?= $title ?> • <?= SITE_NAME ?></title>
+    <title>ABASTANÇA CARGAS - Transporte e logística</title>
     <link rel="stylesheet" href="<?= asset('css/main.css?v='. md5(microtime())) ?>">
 </head>
 
