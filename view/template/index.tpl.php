@@ -242,7 +242,9 @@ require_once VIEW . 'common/navbar.tpl.php';
                                 </div>
                                 <div class="contact-text">
                                     <h5 class="mb-1">E-mail</h5>
-                                    <p><a target="_blank" href="<?= LINK_EMAIL ?>"><?= EMAIL ?></a></p>
+                                    <p class="mb-0"><a target="_blank" href="<?= LINK_EMAIL ?>"><?= EMAIL ?></a></p>
+                                    <p class="mb-0"><a target="_blank" href="mailto:comercial2@abastancacargas.com.br">comercial2@abastancacargas.com.br</a></p>
+                                    <p><a target="_blank" href="mailto:financeiro@abastancacargas.com.br">financeiro@abastancacargas.com.br</a></p>
                                 </div>
                             </li>
                             <li class="d-flex">
