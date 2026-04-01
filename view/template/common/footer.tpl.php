@@ -3,9 +3,10 @@
                 <div class="container">
                     <div class="row">
 
-                        <div class="col-md-6 col-lg-7 <?php if (isMobile()) echo 'text-center'; ?>">
+                        <div class="col-md-6 <?php if (isMobile()) echo 'text-center'; ?>">
                             <div class="copyright-wrap small-text">
                                 <p class="mb-0">&copy; <?= date('Y') ?> <?= SITE_NAME ?> (<?= CNPJ_COMPANY ?>) <?php if (!isMobile()) echo '• Todos os direitos reservados'; ?></p>
+                                <p class="mb-0"><a class="text-white" target="_blank" href="//abastancacargas.com.br/webmail">Acessar o webmail</a></p>
                             </div>
                         </div>
                         <div class="col-md-6 col-lg-5">
