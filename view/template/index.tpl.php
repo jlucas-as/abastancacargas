@@ -122,7 +122,7 @@ require_once VIEW . 'common/navbar.tpl.php';
                 <div class="col-sm-6 col-md-6 col-lg-4 col-6">
                     <div class="bg-white p-2 rounded text-center shadow mt-lg-0 mb-4">
                         <img class="w-100" src="<?= img('rastreamento-de-cargas.jpg') ?>" />
-                        <h5 class="mb-2 mt-2">Rastramento</h5>
+                        <h5 class="mb-2 mt-2">Rastreamento</h5>
                         <p class="mb-2">Acompanhe sua carga em tempo real com total visibilidade e controle durante todo o transporte. Garantimos mais segurança, previsibilidade e confiabilidade em cada etapa da entrega..</p>
                         <a href="<?= LINK_WHATSAPP ?> sobre rastreamento de cargas" class="btn btn-brand-03 p-2"><span class="fab fa-whatsapp"></span> Saiba mais</a>
                     </div>
