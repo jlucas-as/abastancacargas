@@ -74,6 +74,57 @@ require_once VIEW . 'common/navbar.tpl.php';
         </div>
     </section>
 
+    <section class="py-5 bg-light">
+    <div class="container">
+        <div class="text-center mb-5">
+            <h2 class="fw-bold">Missão, Visão e Valores</h2>
+            <p class="text-muted">Conheça os pilares que guiam a Abastança Cargas</p>
+        </div>
+
+        <div class="row g-4">
+
+            <!-- Missão -->
+            <div class="col-md-4">
+                <div class="p-4 h-100 shadow-sm bg-white rounded">
+                    <h4 class="fw-bold text-danger mb-3">Missão</h4>
+                    <p class="text-muted">
+                        Oferecer serviços de transporte com segurança, agilidade e responsabilidade,
+                        garantindo a satisfação dos clientes em cada entrega.
+                    </p>
+                </div>
+            </div>
+
+            <!-- Visão -->
+            <div class="col-md-4">
+                <div class="p-4 h-100 shadow-sm bg-white rounded">
+                    <h4 class="fw-bold text-danger mb-3">Visão</h4>
+                    <p class="text-muted">
+                        Ser reconhecida como uma transportadora confiável e eficiente,
+                        tornando-se referência na região pela qualidade e compromisso com prazos.
+                    </p>
+                </div>
+            </div>
+
+            <!-- Valores -->
+            <div class="col-md-4">
+                <div class="p-4 h-100 shadow-sm bg-white rounded">
+                    <h4 class="fw-bold text-danger mb-3">Valores</h4>
+                    <ul class="list-unstyled text-muted mb-0">
+                        <li>• Compromisso com o cliente</li>
+                        <li>• Pontualidade</li>
+                        <li>• Segurança nas entregas</li>
+                        <li>• Transparência</li>
+                        <li>• Responsabilidade</li>
+                        <li>• Respeito</li>
+                        <li>• Melhoria contínua</li>
+                    </ul>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+
     <section id="servicos" class="position-relative overflow-hidden ptb-100">
         <div class="mask-65" <?= isMobile() ? 'style="bottom:5%;"' : '' ?>></div>
         <div class="container">
