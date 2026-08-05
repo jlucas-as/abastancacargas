@@ -21,8 +21,8 @@ define('MAIL_PASSWORD', 'D,5MTmPIkWzh');
 
 define('PHONE', '(11) 91367-6006');
 define('LINK_PHONE', 'tel:'. str_replace(['(', ')', ' ', '-'], '', PHONE));
-define('WHATSAPP', '(11) 91498-7667');
-define('WHATSAPP2', '(11) 94507-9494');
+define('WHATSAPP', '(11) 94057-7567');
+define('WHATSAPP2', '(11) 94057-8986');
 define('LINK_WHATSAPP', 'https://api.whatsapp.com/send?phone=55'. str_replace(['(', ')', ' ', '-'], '', WHATSAPP) .'&text=Olá '. SITE_NAME .', quero saber mais');
 define('LINK_WHATSAPP2', 'https://api.whatsapp.com/send?phone=55'. str_replace(['(', ')', ' ', '-'], '', WHATSAPP2) .'&text=Olá '. SITE_NAME .', desejo uma cotação de frete!');
 
